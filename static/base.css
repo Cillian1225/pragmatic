@@ -2,7 +2,9 @@
  text-align:center;
  margin:2rem 0;
  }
-
+.cillian_footer_button{
+font-size: .9rem;
+}
 .cillian_header{
 text-align:center;
 margin-bottom:2rem
@@ -12,6 +14,3 @@ margin-bottom:2rem
 font-family:'Lobster', cursive;
 }
 
-.cillian_footer_button{
-font-size: .6rem;
-}
