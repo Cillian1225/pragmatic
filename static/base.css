@@ -28,10 +28,11 @@ color: black;
 }
 a:hover
 {
-    color:black;
+    color: black;
     text-decoration:none;
 }
-pagmatic_header_nav{
+pragmatic_header_nav{
 margin: 0 0.5rem;}
-pagmatic_header_navbar{
+pragmatic_header_navbar{
 margin: 1rem 0;}
+
