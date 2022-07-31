@@ -2,7 +2,7 @@
 
 {% block content %}
 <div>
-  <div style="border: 1px solid; text-align:left; border-radius:1rem; margin:1rem auto 1.5rem; border-color:#bbb;">
+  <div style=" text-align:center; border-radius:1rem; margin:1rem auto 1.5rem;">
 
     <img src="{{target_project.image.url}}" alt=""
          style="height:12rem; width: 12rem; border-radius:20rem; margin-bottom:2rem; object-fit:cover;">
@@ -18,13 +18,13 @@
   <div class="mb-5 text-center">
     {% if user.is_authenticated %}
       {% if not subscription %}
-    <a class="btn btn-danger rounded-pill"style="text-decoration:none;"
+    <a class="btn btn-danger rounded-pill" style="text-decoration:none;"
        href="{% url 'subscribeapp:subscribe'%}?project_pk={{ target_project.pk }}">
       Subscribe
     </a>
 
     {% else %}
-    <a class="btn btn-dark rounded-pill"style="text-decoration:none;"
+    <a class="btn btn-dark rounded-pill" style="text-decoration:none;"
        href="{% url 'subscribeapp:subscribe'%}?project_pk={{ target_project.pk }}">
       Unsubscribe
     </a>
