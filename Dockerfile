@@ -2,7 +2,7 @@ From python:3.9.0
 
 WORKDIR /home/
 
-RUN git clone http://github.com/Cillian1225/pinterestclone.git
+RUN git clone https://github.com/Cillian1225/pinterestclone.git
 
 RUN echo "testing"
 
