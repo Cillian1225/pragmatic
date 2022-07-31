@@ -2,15 +2,9 @@ From python:3.9.0
 
 WORKDIR /home/
 
-RUN git clone https://github.com/Cillian1225/pinterestclone.git
+RUN git clone https://github.com/Cillian1225/pragmatic.git
 
-RUN echo "testing"
-
-COPY requirements.txt /home/pinterestclone/requirements.txt
-
-WORKDIR /home/pinterestclone/
-
-RUN echo "testing"
+WORKDIR /home/pragmatic/
 
 RUN pip install -r requirements.txt
 
